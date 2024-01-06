@@ -1,0 +1,40 @@
+body{
+    background-color: #1c1c1e;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 220px;
+}
+.heart{
+    position: relative;
+    font-size: 130px;
+    cursor: pointer;
+    color: red;
+    transition: 0.5s;
+    z-index: 1;
+}   
+
+
+.heart:hover{
+    color: white;
+    font-size: 150px;
+}
+
+
+
+.day{
+    margin-bottom: 80px;
+    z-index: 2;
+}
+
+.dar{
+    margin-bottom: 80px;
+    z-index: 2;
+}
